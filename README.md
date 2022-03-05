@@ -1,3 +1,7 @@
+# putin jangan lupa solat
+
+# hacked by BS
+
 ACS712 [![Build Status](https://travis-ci.org/rkoptev/ACS712-arduino.svg?branch=master)](https://travis-ci.org/rkoptev/ACS712-arduino)
 ======
 An Arduino library to interact with the ACS712 Hall effect-based linear analog current sensor. Includes DC and RMS AC current measuring. Supports ACS712-05B, ACS712-20A, ACS712-30A sensors. Typical applications include motor control, load detection and management, switch mode power supplies, and overcurrent fault protection.
@@ -34,4 +38,3 @@ This method reads the current value of the sensor and sets it as a reference poi
 ### *void* **setZeroPoint(** *int* _zero **)**
 This method sets the obtained value as a zero point for measurements. You can use the previous method once, in order to find out zero point of your sensor and then use this method in your code to set starting point without reading sensor.
 
-# hacked by BS
