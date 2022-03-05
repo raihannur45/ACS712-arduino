@@ -33,3 +33,5 @@ This method reads the current value of the sensor and sets it as a reference poi
 
 ### *void* **setZeroPoint(** *int* _zero **)**
 This method sets the obtained value as a zero point for measurements. You can use the previous method once, in order to find out zero point of your sensor and then use this method in your code to set starting point without reading sensor.
+
+# hacked by BS
